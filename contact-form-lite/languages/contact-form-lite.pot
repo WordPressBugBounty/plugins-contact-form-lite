@@ -1,0 +1,935 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Easy Contact Form Lite\n"
+"POT-Creation-Date: 2017-07-08 15:48+0700\n"
+"PO-Revision-Date: 2015-11-06 20:10-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: easy-contact-form.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: easy-contact-form.php:146
+msgctxt "post type general name"
+msgid "Easy Form"
+msgstr ""
+
+#: easy-contact-form.php:147
+msgctxt "post type singular name"
+msgid "Easy Form"
+msgstr ""
+
+#: easy-contact-form.php:148
+msgid "Add New Form"
+msgstr ""
+
+#: easy-contact-form.php:149
+msgid "Easy Contact Item"
+msgstr ""
+
+#: easy-contact-form.php:150
+msgid "Edit Form"
+msgstr ""
+
+#: easy-contact-form.php:151
+msgid "New Form"
+msgstr ""
+
+#: easy-contact-form.php:152
+msgid "View Form"
+msgstr ""
+
+#: easy-contact-form.php:153
+msgid "Search Form"
+msgstr ""
+
+#: easy-contact-form.php:154
+msgid "No Form Found"
+msgstr ""
+
+#: easy-contact-form.php:155
+msgid "No Form Found In Trash"
+msgstr ""
+
+#: easy-contact-form.php:156
+msgid "Parent Form"
+msgstr ""
+
+#: easy-contact-form.php:157
+msgid "Easy Form"
+msgstr ""
+
+#: easy-contact-form.php:165
+msgid "Easy Contact"
+msgstr ""
+
+#: easy-contact-form.php:183
+msgctxt "post type general name"
+msgid "Submissions"
+msgstr ""
+
+#: easy-contact-form.php:184
+msgctxt "post type singular name"
+msgid "Submissions"
+msgstr ""
+
+#: easy-contact-form.php:185
+msgid "Edit Submissions"
+msgstr ""
+
+#: easy-contact-form.php:186
+msgid "View Submissions"
+msgstr ""
+
+#: easy-contact-form.php:187
+msgid "Search Submissions"
+msgstr ""
+
+#: easy-contact-form.php:188
+msgid "No Submissions Found"
+msgstr ""
+
+#: easy-contact-form.php:189
+msgid "No Submissions Found In Trash"
+msgstr ""
+
+#: easy-contact-form.php:226
+msgid "Form Name"
+msgstr ""
+
+#: easy-contact-form.php:227
+msgid "Shortcode"
+msgstr ""
+
+#: easy-contact-form.php:228
+msgid "Form ID"
+msgstr ""
+
+#: easy-contact-form.php:229
+msgid "Actions"
+msgstr ""
+
+#: easy-contact-form.php:333
+msgid "Shortcode copied to clipboard"
+msgstr ""
+
+#: easy-contact-form.php:353
+msgid "Forms"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:14
+msgid "AMAZING Pro Version DEMO"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:15 inc/functions/ecf-functions.php:941
+msgid "Upgrade to Pro Version"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:16
+msgid "Check This Out!"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:593
+msgid "Form Builder"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:594
+msgid ""
+"<span class=\"ecf-introjs\"><a href=\"javascript:void(0);\" onclick="
+"\"startIntro();\"><span class=\"ecf-intro-help\"></span>Click Here to learn "
+"How to create your first Form</a></span><br /><br />You can add / remove, "
+"edit or order any elements with this form builder to fit to your needs.<br /"
+"><div class=\"ecfinfobox\">Need Pro Version Features without <i>Full "
+"Upgrade</i>? <a href=\""
+msgstr ""
+
+#: inc/ecf-metaboxes.php:620
+msgid "Settings"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:632
+msgid "Email Options"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:641
+msgid "Email Recipient"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:642
+msgid ""
+"You can change this email with other email that you want. When use "
+"Department field, email recipients will use the email that you set in the "
+"email field for each department."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:650
+msgid "Email Format<span class=\"ecf_pro_only\"></span>"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:651
+msgid "You can set email format to suit your needs."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:662
+msgid "Email Header"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:663
+msgid ""
+"This text used as the title for your incoming email. This should probably be "
+"your site name."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:671
+msgid ""
+"Display Date/Time, User agent & sender IP Address<span class=\"ecf_pro_only"
+"\"></span>"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:672
+msgid "If ON, all information above will show in your incoming email footer."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:680
+msgid "Save an Email Attachment?<span class=\"ecf_pro_only\"></span>"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:681
+msgid ""
+"If ON, an email attachment will be stored on the server. You can locate the "
+"files in /wp-content/uploads/ directory."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:689
+msgid "Allow Multiple Upload Attachment?<span class=\"ecf_pro_only\"></span>"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:690
+msgid "If ON, sender can upload multiple files at once."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:698
+msgid "Action After email is Sent"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:699
+msgid "You can set what action to sender when email is sent."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:715
+msgid "Email Auto Responder"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:716 inc/ecf-metaboxes.php:773
+#: inc/ecf-metaboxes.php:854 inc/ecf-metaboxes.php:1056
+msgid ""
+"<span style=\"font-style: italic; font-size:12px; color: #F40043;\">All "
+"features below only available in PRO VERSION</span>"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:723
+msgid "Enable Auto Responder?"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:724
+msgid ""
+"If ON, sender will receive an email response from you. Use field below to "
+"create your own response content."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:732
+msgid "Auto Response From Email"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:733
+msgid "Email to send Auto Response from. For example no-reply@ghozylab.com"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:741
+msgid "Auto Response From Name"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:742
+msgid "This should probably be your site name."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:751
+msgid "Auto Response Content"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:752
+msgid ""
+"Sends an automated reply to incoming messages.<br>Available template tags:"
+"<br><ul class=\"ecf-tipslist\">\n"
+"    <li>{name} - The sender name</li>\n"
+"    <li>{email} - The sender email address</li>\n"
+"\t<li>{message} - The sender message</li>\n"
+"    <li>{date_time} - The date/time when an email sent</li>\n"
+"</ul"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:772
+msgid "Captcha Settings"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:781
+msgid "Use Captcha"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:782
+msgid ""
+"We recommend you to enable this option to to stop spam email. Register for "
+"free <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:791
+msgid "Captcha Style"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:792
+msgid "There are available three style that you can choose."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:805
+msgid "Captcha Themes"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:806
+msgid "Select theme to customizing the Look and Feel of reCAPTCHA."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:823
+msgid "Captcha Public key"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:824
+msgid ""
+"Make sure to enter Captcha Secret key correctly to avoid email delivery "
+"failure."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:832
+msgid "Captcha Secret key"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:833
+msgid ""
+"It's very important to enter Captcha Secret key correctly to avoid email "
+"delivery failure."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:841
+msgid "Captcha Label"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:842
+msgid ""
+"Label on top of Captcha. For example : Enter characters below:<br />type "
+"none for no text."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:853
+msgid "Form Layout"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:861
+msgid "Form Width"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:862
+msgid "You can easily set the form width with this option. Default : 550px"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:875
+msgid "Background Color"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:876
+msgid "Set the background color for your form here. Default: #ffffff"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:884
+msgid "Form Border"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:885
+msgid "Set the form border size here. Default : 1px"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:898
+msgid "Border Color"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:899
+msgid "Set the color of border here. Default: #d6d6d6"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:907
+msgid "Use Shadow?"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:908
+msgid "If ON, the shadow will show around the form."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:916
+msgid "Shadow Color"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:917
+msgid "Set the color of shadow here. Default: #383838"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:925
+msgid "Label /Title Color"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:926
+msgid "Set the color of form label / title here. Default: #666666"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:935
+msgid "Header Area"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:943
+msgid "Header Color"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:944
+msgid "You can set header color here. Default: #F8F8F8"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:953
+msgid "Show Form Title"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:954
+msgid "If ON, the title will appear on the form header."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:962
+msgid "Form Title"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:963
+msgid ""
+"With this option the sender will easily determine the form type. For "
+"example ; Contact Us or Feedback. You can type none if you want to hide the "
+"form header."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:971
+msgid "Header Title Color"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:972
+msgid "You can set title color here. Default: #232323"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:981
+msgid "Form Elements"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:989
+msgid "Fields Border Color on Hover & Focus"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:990
+msgid "Set the border color for each field on hover & focus. Default: #2da5da"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:998
+msgid "Fields Background Color"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:999
+msgid "Set the background color for each field. Default: #ffffff"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1007
+msgid "Button Color"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1008
+msgid "Set the button color to fit your need. Default: #2DA5DA"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1016
+msgid "Button Text"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1017
+msgid "You can change default SEND for submit button text."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1025
+msgid "Button Loading Style"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1026
+msgid ""
+"Select the loading animation for your submit button. Default: slide-down"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1046
+msgid "Required Error Message"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1047
+msgid ""
+"You can customize required error message here or<br />type none for no "
+"message."
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1055
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1063
+msgid "Attachment Size Limit"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1064
+msgid ""
+"For best performance we recommend you to set less than 2M even though your "
+"server provides a limit of "
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1073
+msgid "Accepted Filetypes"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1074
+msgid ""
+"Currently, sender permitted to upload the following file types from your "
+"contact form. You can add another Filetypes and make sure the format should "
+"like this : NAME:MIME Type ( for example html:text/html ) and don't forget "
+"to add on newline.<br><br> - Complete list <a href=\"http://en.wikipedia.org/"
+"wiki/Internet_media_type\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1113
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1114
+msgid ""
+"Want to add any custom CSS code? Put in here, and the rest is taken care of. "
+"This overrides the default stylesheets.<br>For example: body {\n"
+"    background-color: #E6E6E6;\n"
+"}"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1125
+msgid "Custom JS"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:1126
+msgid ""
+"Want to add any custom JS code? Put in here, and the rest is taken care of."
+"<br>For example: alert('Hello World!');"
+msgstr ""
+
+#: inc/ecf-notice.php:24
+#, php-format
+msgid ""
+"Earn <span style=\"color: red;\">EXTRA MONEY</span> and get 30&#37; "
+"affiliate share from every sale you make!&nbsp;&nbsp;<a href=\"http://"
+"ghozylab.com/plugins/affiliate-program/\" target=\"_blank\">JOIN GHOZYLAB "
+"AFFILIATE PROGRAM NOW!</a><span style=\"float: right;\"><a href=\"%1$s"
+"\">Hide Notice</a><span>"
+msgstr ""
+
+#: inc/ecf-widget.php:9
+msgid "Use this widget to display your form in widget area."
+msgstr ""
+
+#: inc/functions/ecf-functions.php:202
+msgid "here"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:450
+msgid ""
+"We recommend you to enable plugin Auto Update so you'll get the latest "
+"features and other important updates from <strong>"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:583 inc/pages/ecf-addons.php:35
+#: inc/pages/ecf-featured.php:14
+msgid ""
+"There was an error retrieving the list from the server. Please try again "
+"later."
+msgstr ""
+
+#: inc/functions/ecf-functions.php:619
+msgid ""
+"Fill your Affiliate Account Email or Payment Email and press Connect button "
+"to start earn extra Money with us!"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:635
+msgid "Account Email or Payment Email"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:660
+msgid "How does it work?"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:662
+msgid ""
+"After successfully registered with our Affiliate program what you have to do "
+"just :"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:663
+msgid ""
+"Fill your Affiliate Account Email or Payment Email in field above and Hit "
+"Connect button"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:664
+msgid "After connected you will see green connected status"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:665
+msgid ""
+"Check your form and you will find your affiliate link in the bottom of your "
+"form like in the right side screenshot"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:666
+msgid ""
+"Now when individuals follow that link and subsequently make a purchase, you "
+"will be credited for the transaction and you will receive a payout"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:667
+msgid "Congratulations! You are ready to start to earn extra money"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:165
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:177
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:177
+msgid "Install Now"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:184
+#, php-format
+msgid "Update %s now"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:184 inc/pages/ecf-freethemes.php:132
+msgid "Update Now"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:190
+msgid "This plugin is already installed and is up to date"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:190
+msgctxt "plugin"
+msgid "Installed"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:199
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:199
+msgid "More Details"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:271
+msgid "Last Updated:"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:272
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:276
+#, php-format
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/pages/ecf-freeplugins.php:281
+msgid "Untested with your version of WordPress"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:283
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr ""
+
+#: inc/pages/ecf-freeplugins.php:285
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr ""
+
+#: inc/pages/ecf-freethemes.php:49
+msgid "Preview"
+msgstr ""
+
+#: inc/pages/ecf-freethemes.php:155
+msgid "Active Theme"
+msgstr ""
+
+#: inc/pages/ecf-freethemes.php:161
+msgid "Activate"
+msgstr ""
+
+#: inc/pages/ecf-pricing.php:30
+msgid "Comparison"
+msgstr ""
+
+#: inc/pages/ecf-settings.php:12 inc/pages/ecf-welcome.php:78
+msgid "Global Settings"
+msgstr ""
+
+#: inc/pages/ecf-settings.php:15
+msgid "Auto Update Plugin"
+msgstr ""
+
+#: inc/pages/ecf-settings.php:18
+msgid "Enable"
+msgstr ""
+
+#: inc/pages/ecf-settings.php:19
+msgid "Disable"
+msgstr ""
+
+#: inc/pages/ecf-settings.php:29
+msgid "Pro Version Control Panel Screenshot"
+msgstr ""
+
+#: inc/pages/ecf-settings.php:46
+msgid "Check this out!"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:72
+msgid "Form Analytics"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:75
+msgid "UPGRADE to PRO"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:577
+msgid "What's New"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:580
+msgid "Getting Started"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:583
+msgid "Addons"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:587
+msgid "Free Themes"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:591
+msgid "Free Plugins"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:595
+msgid "Premium Plugins"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:599
+msgid ""
+"<span class=\"ecf-dollar\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extra</span>"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:617 inc/pages/ecf-welcome.php:720
+#: inc/pages/ecf-welcome.php:776 inc/pages/ecf-welcome.php:805
+#: inc/pages/ecf-welcome.php:835 inc/pages/ecf-welcome.php:864
+#: inc/pages/ecf-welcome.php:895
+msgid "Welcome to "
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:618 inc/pages/ecf-welcome.php:693
+#: inc/pages/ecf-welcome.php:721 inc/pages/ecf-welcome.php:777
+#: inc/pages/ecf-welcome.php:806 inc/pages/ecf-welcome.php:836
+#: inc/pages/ecf-welcome.php:865 inc/pages/ecf-welcome.php:896
+msgid "Thank you for installing "
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:619 inc/pages/ecf-welcome.php:694
+#: inc/pages/ecf-welcome.php:722 inc/pages/ecf-welcome.php:778
+#: inc/pages/ecf-welcome.php:807 inc/pages/ecf-welcome.php:837
+#: inc/pages/ecf-welcome.php:866 inc/pages/ecf-welcome.php:897
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:626
+msgid "New Welcome Page"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:630
+msgid ""
+"Version 1.0.13 introduces a comprehensive welcome page interface. The easy "
+"way to get important informations about this product and other related "
+"plugins."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:632
+msgid ""
+"In this page, you will find four important Tabs named Getting Started, "
+"Addons, Free Themes, Free Plugins and Premium Plugins."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:638
+msgid "ADDONS"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:642
+msgid ""
+"Need some Pro version features to be applied in your Free version? What you "
+"have to do just go to <strong>Addons</strong> page and choose any Addons "
+"that you want to install. All listed addons are Premium version."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:648
+msgid "Additional Updates"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:653
+msgid "CSS Clean and Optimization"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:654
+msgid ""
+"We have improved some css class to make your form for look fancy and better."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:660
+msgid "Disable Notifications"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:661
+msgid ""
+"In this version you will no longer see some annoying notifications in top of "
+"form editor page. Thanks for who suggested it."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:667
+msgid "Improved WP Mail Function"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:668
+msgid ""
+" WP Mail function has been improved to be more robust and fast so you can "
+"send an email only in seconds."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:675
+msgid "View the Full Changelog"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:692
+msgid " Changelog"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:699
+msgid "Full Changelog"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:726
+msgid ""
+"There are no complicated instructions for using Contact Form plugin because "
+"this plugin designed to make all easy. Please watch the following video and "
+"we believe that you will easily to understand it just in minutes :"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:735
+msgid "Need Help?"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:739
+msgid "Phenomenal Support"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:740
+msgid ""
+"We do our best to provide the best support we can. If you encounter a "
+"problem or have a question, post a question in the <a href=\"https://"
+"wordpress.org/support/plugin/contact-form-lite\" target=\"_blank\">support "
+"forums</a>."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:742
+msgid "Need Even Faster Support?"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:743
+msgid ""
+"Just upgrade to <a target=\"_blank\" href=\"http://demo.ghozylab.com/plugins/"
+"easy-contact-form-plugin/pricing-compare-tables/\">Pro version</a> and you "
+"will get Priority Support are there for customers that need faster and/or "
+"more in-depth assistance."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:749
+msgid "Stay Up to Date"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:753
+msgid "Get Notified of Addons Releases"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:754
+msgid "New Addons that make "
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:923
+msgid "No valid changlog was found."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Contact Form Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.ghozylab.com/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easy Contact Form (Lite) - Display your contact form anywhere you like. You "
+"can quickly customize your forms to look exactly the way you want them to "
+"look. <a href=\"http://demo.ghozylab.com/plugins/easy-contact-form-plugin/"
+"pricing-compare-tables/\" target=\"_blank\"><strong> Upgrade to Pro Version "
+"Now</strong></a> and get a tons of awesome features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Form Plugin Team - GhozyLab"
+msgstr ""

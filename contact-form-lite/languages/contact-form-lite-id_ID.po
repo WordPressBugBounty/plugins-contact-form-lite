@@ -1,0 +1,972 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Easy Contact Form Lite\n"
+"POT-Creation-Date: 2016-03-25 20:44+0700\n"
+"PO-Revision-Date: 2016-03-25 21:05+0700\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: easy-contact-form.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: id_ID\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: easy-contact-form.php:146
+msgctxt "post type general name"
+msgid "Easy Form"
+msgstr "Easy Form"
+
+#: easy-contact-form.php:147
+msgctxt "post type singular name"
+msgid "Easy Form"
+msgstr "Easy Form"
+
+#: easy-contact-form.php:148
+msgid "Add New Form"
+msgstr "Buat form baru"
+
+#: easy-contact-form.php:149
+msgid "Easy Contact Item"
+msgstr "Easy Contact Item"
+
+#: easy-contact-form.php:150
+msgid "Edit Form"
+msgstr "Mengedit Form"
+
+#: easy-contact-form.php:151
+msgid "New Form"
+msgstr "Form Baru"
+
+#: easy-contact-form.php:152
+msgid "View Form"
+msgstr "Lihat Form"
+
+#: easy-contact-form.php:153
+msgid "Search Form"
+msgstr "Pencarian Form"
+
+#: easy-contact-form.php:154
+msgid "No Form Found"
+msgstr "Tidak ada Form Ditemukan"
+
+#: easy-contact-form.php:155
+msgid "No Form Found In Trash"
+msgstr "Tidak ada Form yang ditemukan di tempat sampah"
+
+#: easy-contact-form.php:156
+msgid "Parent Form"
+msgstr "Parent Form"
+
+#: easy-contact-form.php:157
+msgid "Easy Form"
+msgstr "Easy Form"
+
+#: easy-contact-form.php:165
+msgid "Easy Contact"
+msgstr "Easy Contact"
+
+#: easy-contact-form.php:183
+msgctxt "post type general name"
+msgid "Submissions"
+msgstr "Kiriman"
+
+#: easy-contact-form.php:184
+msgctxt "post type singular name"
+msgid "Submissions"
+msgstr "Kiriman"
+
+#: easy-contact-form.php:185
+msgid "Edit Submissions"
+msgstr "Mengedit Kiriman"
+
+#: easy-contact-form.php:186
+msgid "View Submissions"
+msgstr "Lihat Daftar Kiriman"
+
+#: easy-contact-form.php:187
+msgid "Search Submissions"
+msgstr "Pencarian Kiriman"
+
+#: easy-contact-form.php:188
+msgid "No Submissions Found"
+msgstr "Tidak ada Pengiriman Ditemukan"
+
+#: easy-contact-form.php:189
+msgid "No Submissions Found In Trash"
+msgstr "Tidak ada kiriman yang ditemukan di tempat sampah"
+
+#: easy-contact-form.php:226
+msgid "Form Name"
+msgstr "Nama Form"
+
+#: easy-contact-form.php:227
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: easy-contact-form.php:228
+msgid "Form ID"
+msgstr "ID Form"
+
+#: easy-contact-form.php:229
+msgid "Actions"
+msgstr "Aksi"
+
+#: easy-contact-form.php:333
+msgid "Shortcode copied to clipboard"
+msgstr "Shortcode disalin ke clipboard"
+
+#: easy-contact-form.php:353
+msgid "Forms"
+msgstr "Forms"
+
+#: inc/ecf-metaboxes.php:14
+msgid "AMAZING Pro Version DEMO"
+msgstr "Versi Pro yang MENAKJUBKAN"
+
+#: inc/ecf-metaboxes.php:15 inc/functions/ecf-functions.php:941
+msgid "Upgrade to Pro Version"
+msgstr "Upgrade ke Versi Pro"
+
+#: inc/ecf-metaboxes.php:16
+msgid "Check This Out!"
+msgstr "Lihat ini!"
+
+#: inc/ecf-metaboxes.php:593
+msgid "Form Builder"
+msgstr "Form Builder"
+
+#: inc/ecf-metaboxes.php:594
+msgid ""
+"<span class=\"ecf-introjs\"><a href=\"javascript:void(0);\" onclick="
+"\"startIntro();\"><span class=\"ecf-intro-help\"></span>Click Here to learn "
+"How to create your first Form</a></span><br /><br />You can add / remove, "
+"edit or order any elements with this form builder to fit to your needs.<br /"
+"><div class=\"ecfinfobox\">Need Pro Version Features without <i>Full "
+"Upgrade</i>? <a href=\""
+msgstr ""
+
+#: inc/ecf-metaboxes.php:620
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: inc/ecf-metaboxes.php:632
+msgid "Email Options"
+msgstr "Opsi Email"
+
+#: inc/ecf-metaboxes.php:641
+msgid "Email Recipient"
+msgstr "Email Penerima"
+
+#: inc/ecf-metaboxes.php:642
+msgid ""
+"You can change this email with other email that you want. When use "
+"Department field, email recipients will use the email that you set in the "
+"email field for each department."
+msgstr ""
+"Anda dapat mengubah email ini dengan email lain yang Anda inginkan. Ketika "
+"menggunakan bidang Departemen, email penerima akan menggunakan email yang "
+"Anda tetapkan di bidang email untuk masing-masing departemen."
+
+#: inc/ecf-metaboxes.php:650
+msgid "Email Format<span class=\"ecf_pro_only\"></span>"
+msgstr "Format Email<span class=\"ecf_pro_only\"></span>"
+
+#: inc/ecf-metaboxes.php:651
+msgid "You can set email format to suit your needs."
+msgstr "Anda dapat mengatur format email sesuai dengan kebutuhan Anda."
+
+#: inc/ecf-metaboxes.php:662
+msgid "Email Header"
+msgstr "Email Header"
+
+#: inc/ecf-metaboxes.php:663
+msgid ""
+"This text used as the title for your incoming email. This should probably be "
+"your site name."
+msgstr ""
+"Teks ini digunakan sebagai judul untuk email masuk. Ini mungkin harus nama "
+"situs Anda."
+
+#: inc/ecf-metaboxes.php:671
+msgid ""
+"Display Date/Time, User agent & sender IP Address<span class=\"ecf_pro_only"
+"\"></span>"
+msgstr ""
+"Menampilkan tanggal/waktu, agen pengguna & pengirim alamat IP<span class="
+"\"ecf_pro_only\"></span>"
+
+#: inc/ecf-metaboxes.php:672
+msgid "If ON, all information above will show in your incoming email footer."
+msgstr ""
+"Jika aktif, semua informasi di atas akan ditampilkan di footer email masuk "
+"Anda."
+
+#: inc/ecf-metaboxes.php:680
+msgid "Save an Email Attachment?<span class=\"ecf_pro_only\"></span>"
+msgstr "Menyimpan lampiran Email?<span class=\"ecf_pro_only\"></span>"
+
+#: inc/ecf-metaboxes.php:681
+msgid ""
+"If ON, an email attachment will be stored on the server. You can locate the "
+"files in /wp-content/uploads/ directory."
+msgstr ""
+"Jika Aktif, lampiran email akan disimpan di server. Anda dapat mencari file "
+"di/wp-content/uploads/ direktori."
+
+#: inc/ecf-metaboxes.php:689
+msgid "Allow Multiple Upload Attachment?<span class=\"ecf_pro_only\"></span>"
+msgstr ""
+"Memungkinkan Upload beberapa lampiran?<span class=\"ecf_pro_only\"></span>"
+
+#: inc/ecf-metaboxes.php:690
+msgid "If ON, sender can upload multiple files at once."
+msgstr "Jika Aktif, pengirim dapat meng-upload beberapa file sekaligus."
+
+#: inc/ecf-metaboxes.php:698
+msgid "Action After email is Sent"
+msgstr "Tindakan setelah email dikirim"
+
+#: inc/ecf-metaboxes.php:699
+msgid "You can set what action to sender when email is sent."
+msgstr "Anda dapat mengatur tindakan pengirim bila email dikirim."
+
+#: inc/ecf-metaboxes.php:715
+msgid "Email Auto Responder"
+msgstr "Email Auto Responder"
+
+#: inc/ecf-metaboxes.php:716 inc/ecf-metaboxes.php:773
+#: inc/ecf-metaboxes.php:854 inc/ecf-metaboxes.php:1056
+msgid ""
+"<span style=\"font-style: italic; font-size:12px; color: #F40043;\">All "
+"features below only available in PRO VERSION</span>"
+msgstr ""
+"<span style=\"font-style: italic; font-size:12px; color: #F40043;\">Semua "
+"fitur di bawah ini hanya tersedia pada versi PRO</span>"
+
+#: inc/ecf-metaboxes.php:723
+msgid "Enable Auto Responder?"
+msgstr "Mengaktifkan Auto Responder?"
+
+#: inc/ecf-metaboxes.php:724
+msgid ""
+"If ON, sender will receive an email response from you. Use field below to "
+"create your own response content."
+msgstr ""
+"Jika Aktif, pengirim akan menerima jawaban email dari Anda. Gunakan bidang "
+"di bawah ini untuk membuat konten respon Anda sendiri."
+
+#: inc/ecf-metaboxes.php:732
+msgid "Auto Response From Email"
+msgstr "Auto respon Dari"
+
+#: inc/ecf-metaboxes.php:733
+msgid "Email to send Auto Response from. For example no-reply@ghozylab.com"
+msgstr "Email untuk mengirim Auto respon dari. Misalnya no-reply@ghozylab.com"
+
+#: inc/ecf-metaboxes.php:741
+msgid "Auto Response From Name"
+msgstr "Auto respon nama"
+
+#: inc/ecf-metaboxes.php:742
+msgid "This should probably be your site name."
+msgstr "Ini mungkin harus nama situs Anda."
+
+#: inc/ecf-metaboxes.php:751
+msgid "Auto Response Content"
+msgstr "Isi dari Auto respon"
+
+#: inc/ecf-metaboxes.php:752
+msgid ""
+"Sends an automated reply to incoming messages.<br>Available template tags:"
+"<br><ul class=\"ecf-tipslist\">\n"
+"    <li>{name} - The sender name</li>\n"
+"    <li>{email} - The sender email address</li>\n"
+"\t<li>{message} - The sender message</li>\n"
+"    <li>{date_time} - The date/time when an email sent</li>\n"
+"</ul"
+msgstr ""
+
+#: inc/ecf-metaboxes.php:772
+msgid "Captcha Settings"
+msgstr "Pengaturan captcha"
+
+#: inc/ecf-metaboxes.php:781
+msgid "Use Captcha"
+msgstr "Menggunakan Captcha"
+
+#: inc/ecf-metaboxes.php:782
+msgid ""
+"We recommend you to enable this option to to stop spam email. Register for "
+"free <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"Kami sarankan Anda untuk mengaktifkan opsi ini untuk menghentikan spam "
+"email. Mendaftar gratis <a href=\"https://www.google.com/recaptcha/admin\" "
+"target=\"_blank\">di sini</a>."
+
+#: inc/ecf-metaboxes.php:791
+msgid "Captcha Style"
+msgstr "Gaya captcha"
+
+#: inc/ecf-metaboxes.php:792
+msgid "There are available three style that you can choose."
+msgstr "Ada tersedia tiga gaya yang dapat Anda pilih."
+
+#: inc/ecf-metaboxes.php:805
+msgid "Captcha Themes"
+msgstr "Tema captcha"
+
+#: inc/ecf-metaboxes.php:806
+msgid "Select theme to customizing the Look and Feel of reCAPTCHA."
+msgstr "Pilih tema untuk menyesuaikan tampilan dan nuansa dari reCAPTCHA."
+
+#: inc/ecf-metaboxes.php:823
+msgid "Captcha Public key"
+msgstr "Captcha Public key"
+
+#: inc/ecf-metaboxes.php:824
+msgid ""
+"Make sure to enter Captcha Secret key correctly to avoid email delivery "
+"failure."
+msgstr ""
+"Pastikan untuk memasukkan Captcha kunci rahasia dengan benar untuk "
+"menghindari kegagalan pengiriman email."
+
+#: inc/ecf-metaboxes.php:832
+msgid "Captcha Secret key"
+msgstr "Captcha Secret key"
+
+#: inc/ecf-metaboxes.php:833
+msgid ""
+"It's very important to enter Captcha Secret key correctly to avoid email "
+"delivery failure."
+msgstr ""
+"Hal ini sangat penting untuk memasukkan Captcha kunci rahasia dengan benar "
+"untuk menghindari kegagalan pengiriman email."
+
+#: inc/ecf-metaboxes.php:841
+msgid "Captcha Label"
+msgstr "Label Captcha"
+
+#: inc/ecf-metaboxes.php:842
+msgid ""
+"Label on top of Captcha. For example : Enter characters below:<br />type "
+"none for no text."
+msgstr ""
+"Label di atas Captcha. Sebagai contoh: masukkan karakter di bawah ini:"
+"<br>Ketik none untuk tidak ada teks."
+
+#: inc/ecf-metaboxes.php:853
+msgid "Form Layout"
+msgstr "Form layout"
+
+#: inc/ecf-metaboxes.php:861
+msgid "Form Width"
+msgstr "Lebar Form"
+
+#: inc/ecf-metaboxes.php:862
+msgid "You can easily set the form width with this option. Default : 550px"
+msgstr ""
+"Anda dapat dengan mudah menetapkan lebar Form dengan opsi ini. Standar: 550px"
+
+#: inc/ecf-metaboxes.php:875
+msgid "Background Color"
+msgstr "Warna Background"
+
+#: inc/ecf-metaboxes.php:876
+msgid "Set the background color for your form here. Default: #ffffff"
+msgstr "Mengatur warna latar belakang Form. Standar: #ffffff"
+
+#: inc/ecf-metaboxes.php:884
+msgid "Form Border"
+msgstr "Form Border"
+
+#: inc/ecf-metaboxes.php:885
+msgid "Set the form border size here. Default : 1px"
+msgstr "Mengatur ukuran perbatasan Form. Default: 1px"
+
+#: inc/ecf-metaboxes.php:898
+msgid "Border Color"
+msgstr "Warna Pembatas"
+
+#: inc/ecf-metaboxes.php:899
+msgid "Set the color of border here. Default: #d6d6d6"
+msgstr "Mengatur warna border di sini. Default: #d6d6d6"
+
+#: inc/ecf-metaboxes.php:907
+msgid "Use Shadow?"
+msgstr "Gunakan Bayangan?"
+
+#: inc/ecf-metaboxes.php:908
+msgid "If ON, the shadow will show around the form."
+msgstr "Jika ON, bayangan akan muncul di sekitar Form."
+
+#: inc/ecf-metaboxes.php:916
+msgid "Shadow Color"
+msgstr "Warna Bayangan"
+
+#: inc/ecf-metaboxes.php:917
+msgid "Set the color of shadow here. Default: #383838"
+msgstr "Mengatur warna bayangan sini. Default: #383838"
+
+#: inc/ecf-metaboxes.php:925
+msgid "Label /Title Color"
+msgstr "Label / Warna Judul"
+
+#: inc/ecf-metaboxes.php:926
+msgid "Set the color of form label / title here. Default: #666666"
+msgstr "Mengatur warna label / judul sini. Default: #666666"
+
+#: inc/ecf-metaboxes.php:935
+msgid "Header Area"
+msgstr "Lokasi Header"
+
+#: inc/ecf-metaboxes.php:943
+msgid "Header Color"
+msgstr "Warna Header"
+
+#: inc/ecf-metaboxes.php:944
+msgid "You can set header color here. Default: #F8F8F8"
+msgstr "Mengatur warna header. Default: #F8F8F8"
+
+#: inc/ecf-metaboxes.php:953
+msgid "Show Form Title"
+msgstr "Tampilkan Judul"
+
+#: inc/ecf-metaboxes.php:954
+msgid "If ON, the title will appear on the form header."
+msgstr "Jika Aktif, judul Form akan ditampilkan"
+
+#: inc/ecf-metaboxes.php:962
+msgid "Form Title"
+msgstr "Judul Form"
+
+#: inc/ecf-metaboxes.php:963
+msgid ""
+"With this option the sender will easily determine the form type. For "
+"example ; Contact Us or Feedback. You can type none if you want to hide the "
+"form header."
+msgstr ""
+"Dengan opsi ini pengirim akan dengan mudah menentukan jenis dan kegunaan "
+"Form. Sebagai contoh; Hubungi kami atau umpan balik. Anda dapat mengetik "
+"none jika Anda ingin menyembunyikan Form header."
+
+#: inc/ecf-metaboxes.php:971
+msgid "Header Title Color"
+msgstr "Warna Judul pada Header"
+
+#: inc/ecf-metaboxes.php:972
+msgid "You can set title color here. Default: #232323"
+msgstr "Anda dapat menyetel warna judul di sini. Default: #232323"
+
+#: inc/ecf-metaboxes.php:981
+msgid "Form Elements"
+msgstr "Elemen Form"
+
+#: inc/ecf-metaboxes.php:989
+msgid "Fields Border Color on Hover & Focus"
+msgstr "Bidang perbatasan warna pada Hover & fokus"
+
+#: inc/ecf-metaboxes.php:990
+msgid "Set the border color for each field on hover & focus. Default: #2da5da"
+msgstr ""
+"Mengatur warna perbatasan untuk setiap bidang pada hover & fokus. Default: "
+"#2da5da"
+
+#: inc/ecf-metaboxes.php:998
+msgid "Fields Background Color"
+msgstr "Bidang warna latar belakang"
+
+#: inc/ecf-metaboxes.php:999
+msgid "Set the background color for each field. Default: #ffffff"
+msgstr "Mengatur warna latar belakang untuk setiap bidang. Standar: #ffffff"
+
+#: inc/ecf-metaboxes.php:1007
+msgid "Button Color"
+msgstr "Warna Tombol"
+
+#: inc/ecf-metaboxes.php:1008
+msgid "Set the button color to fit your need. Default: #2DA5DA"
+msgstr "Mengatur warna tombol sesuai kebutuhan Anda. Default: #2DA5DA"
+
+#: inc/ecf-metaboxes.php:1016
+msgid "Button Text"
+msgstr "Tombol teks"
+
+#: inc/ecf-metaboxes.php:1017
+msgid "You can change default SEND for submit button text."
+msgstr "Anda dapat mengubah default SEND untuk teks tombol."
+
+#: inc/ecf-metaboxes.php:1025
+msgid "Button Loading Style"
+msgstr "Gaya Loading tombol"
+
+#: inc/ecf-metaboxes.php:1026
+msgid ""
+"Select the loading animation for your submit button. Default: slide-down"
+msgstr "Pilih animasi loading untuk tombol kirim. Default: slide-down"
+
+#: inc/ecf-metaboxes.php:1046
+msgid "Required Error Message"
+msgstr "Pesan kesalahan"
+
+#: inc/ecf-metaboxes.php:1047
+msgid ""
+"You can customize required error message here or<br />type none for no "
+"message."
+msgstr ""
+"Anda dapat menyesuaikan pesan kesalahan di sini atau<br>Ketik none untuk "
+"tidak ada pesan."
+
+#: inc/ecf-metaboxes.php:1055
+msgid "Advanced Settings"
+msgstr "Pengaturan lanjutan"
+
+#: inc/ecf-metaboxes.php:1063
+msgid "Attachment Size Limit"
+msgstr "Batas ukuran lampiran"
+
+#: inc/ecf-metaboxes.php:1064
+msgid ""
+"For best performance we recommend you to set less than 2M even though your "
+"server provides a limit of "
+msgstr ""
+"Untuk kinerja terbaik kami sarankan Anda untuk mengatur kurang dari 2M "
+"meskipun server Anda menyediakan batas"
+
+#: inc/ecf-metaboxes.php:1073
+msgid "Accepted Filetypes"
+msgstr "Tipe file yang diterima"
+
+#: inc/ecf-metaboxes.php:1074
+msgid ""
+"Currently, sender permitted to upload the following file types from your "
+"contact form. You can add another Filetypes and make sure the format should "
+"like this : NAME:MIME Type ( for example html:text/html ) and don't forget "
+"to add on newline.<br><br> - Complete list <a href=\"http://en.wikipedia.org/"
+"wiki/Internet_media_type\" target=\"_blank\">here</a>"
+msgstr ""
+"Saat ini, pengirim diizinkan untuk meng-upload jenis file berikut dari "
+"formulir kontak Anda. Anda dapat menambahkan tipe file lain dan memastikan "
+"bahwa format harus seperti ini: jenis nama: MIME (misalnya html:text / html) "
+"dan jangan lupa untuk menambahkan newline.<br><br>-Daftar lengkap <a href="
+"\"http://en.wikipedia.org/wiki/Internet_media_type\" target=\"_blank\">di "
+"sini</a>"
+
+#: inc/ecf-metaboxes.php:1113
+msgid "Custom CSS"
+msgstr "Kustom CSS"
+
+#: inc/ecf-metaboxes.php:1114
+msgid ""
+"Want to add any custom CSS code? Put in here, and the rest is taken care of. "
+"This overrides the default stylesheets.<br>For example: body {\n"
+"    background-color: #E6E6E6;\n"
+"}"
+msgstr ""
+"Ingin menambahkan kustom CSS? Tempatkan di sini. Ini mengabaikan stylesheet "
+"default.<br>Sebagai contoh: tubuh {  background-color: #E6E6E6;}"
+
+#: inc/ecf-metaboxes.php:1125
+msgid "Custom JS"
+msgstr "Kustom JS"
+
+#: inc/ecf-metaboxes.php:1126
+msgid ""
+"Want to add any custom JS code? Put in here, and the rest is taken care of."
+"<br>For example: alert('Hello World!');"
+msgstr ""
+"Ingin menambahkan kode JS kustom? Tempatkan di sini.<br>Sebagai contoh: "
+"alert('Hello World!');"
+
+#: inc/ecf-notice.php:24
+#, php-format
+msgid ""
+"Earn <span style=\"color: red;\">EXTRA MONEY</span> and get 30&#37; "
+"affiliate share from every sale you make!&nbsp;&nbsp;<a href=\"http://"
+"ghozylab.com/plugins/affiliate-program/\" target=\"_blank\">JOIN GHOZYLAB "
+"AFFILIATE PROGRAM NOW!</a><span style=\"float: right;\"><a href=\"%1$s"
+"\">Hide Notice</a><span>"
+msgstr ""
+
+#: inc/ecf-widget.php:9
+msgid "Use this widget to display your form in widget area."
+msgstr "Menggunakan widget ini untuk menampilkan formulir di daerah widget."
+
+#: inc/functions/ecf-functions.php:202
+msgid "here"
+msgstr ""
+
+#: inc/functions/ecf-functions.php:450
+msgid ""
+"We recommend you to enable plugin Auto Update so you'll get the latest "
+"features and other important updates from <strong>"
+msgstr ""
+"Kami sarankan Anda mengaktifkan plugin Update otomatis sehingga Anda akan "
+"mendapatkan fitur terbaru dan update penting lain dari<strong></strong>"
+
+#: inc/functions/ecf-functions.php:583 inc/pages/ecf-addons.php:35
+#: inc/pages/ecf-featured.php:14
+msgid ""
+"There was an error retrieving the list from the server. Please try again "
+"later."
+msgstr "Ada kesalahan mengambil daftar dari server. Harap coba lagi nanti."
+
+#: inc/functions/ecf-functions.php:619
+msgid ""
+"Fill your Affiliate Account Email or Payment Email and press Connect button "
+"to start earn extra Money with us!"
+msgstr ""
+"Isi Email atau Pembayaran Email dan tekan tombol Akun Afiliasi Connect untuk "
+"mulai mendapatkan uang tambahan dengan kami!"
+
+#: inc/functions/ecf-functions.php:635
+msgid "Account Email or Payment Email"
+msgstr "Akun Email atau Pembayaran Email"
+
+#: inc/functions/ecf-functions.php:660
+msgid "How does it work?"
+msgstr "Bagaimana cara kerjanya?"
+
+#: inc/functions/ecf-functions.php:662
+msgid ""
+"After successfully registered with our Affiliate program what you have to do "
+"just :"
+msgstr ""
+"Setelah berhasil terdaftar dengan Program Afiliasi kami apa yang harus Anda "
+"lakukan adalah:"
+
+#: inc/functions/ecf-functions.php:663
+msgid ""
+"Fill your Affiliate Account Email or Payment Email in field above and Hit "
+"Connect button"
+msgstr ""
+"Isi Akun Afiliasi Anda Email atau Pembayaran Email pada bidang di atas dan "
+"tekan tombol Connect"
+
+#: inc/functions/ecf-functions.php:664
+msgid "After connected you will see green connected status"
+msgstr "Setelah terhubung, Anda akan melihat status terhubung berwarna hijau"
+
+#: inc/functions/ecf-functions.php:665
+msgid ""
+"Check your form and you will find your affiliate link in the bottom of your "
+"form like in the right side screenshot"
+msgstr ""
+"Periksa formulir Anda dan Anda akan menemukan link afiliasi Anda di bagian "
+"bawah slider seperti pada gambar sisi kanan"
+
+#: inc/functions/ecf-functions.php:666
+msgid ""
+"Now when individuals follow that link and subsequently make a purchase, you "
+"will be credited for the transaction and you will receive a payout"
+msgstr ""
+"Sekarang ketika seseorang mengikuti link dan kemudian melakukan pembelian, "
+"Anda akan dikreditkan untuk transaksi dan Anda akan menerima payout"
+
+#: inc/functions/ecf-functions.php:667
+msgid "Congratulations! You are ready to start to earn extra money"
+msgstr ""
+"Selamat! Anda siap untuk mulai mendapatkan uang tambahan dengan kami :)"
+
+#: inc/pages/ecf-freeplugins.php:165
+#, php-format
+msgid "By %s"
+msgstr "Oleh %s"
+
+#: inc/pages/ecf-freeplugins.php:177
+#, php-format
+msgid "Install %s now"
+msgstr "Menginstal %s sekarang"
+
+#: inc/pages/ecf-freeplugins.php:177
+msgid "Install Now"
+msgstr "Pasang sekarang"
+
+#: inc/pages/ecf-freeplugins.php:184
+#, php-format
+msgid "Update %s now"
+msgstr "Perbarui %s sekarang"
+
+#: inc/pages/ecf-freeplugins.php:184
+msgid "Update Now"
+msgstr "Memperbarui sekarang"
+
+#: inc/pages/ecf-freeplugins.php:190
+msgid "This plugin is already installed and is up to date"
+msgstr "Plugin ini sudah terinstal dan up to date"
+
+#: inc/pages/ecf-freeplugins.php:190
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Sudah Terinstall"
+
+#: inc/pages/ecf-freeplugins.php:199
+#, php-format
+msgid "More information about %s"
+msgstr "Informasi lebih lanjut tentang %s"
+
+#: inc/pages/ecf-freeplugins.php:199
+msgid "More Details"
+msgstr "Lebih detail"
+
+#: inc/pages/ecf-freeplugins.php:267
+msgid "Last Updated:"
+msgstr "Terakhir Diperbarui:"
+
+#: inc/pages/ecf-freeplugins.php:268
+#, php-format
+msgid "%s ago"
+msgstr "%s yang lalu"
+
+#: inc/pages/ecf-freeplugins.php:274
+msgid "Untested with your version of WordPress"
+msgstr "Belum diuji dengan versi WordPress Anda"
+
+#: inc/pages/ecf-freeplugins.php:276
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr "<strong>Tidak Kompatibel</strong> dengan versi WordPress"
+
+#: inc/pages/ecf-freeplugins.php:278
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr "<strong>Kompatibel</strong> dengan versi WordPress"
+
+#: inc/pages/ecf-pricing.php:30
+msgid "Comparison"
+msgstr "Perbandingan Versi"
+
+#: inc/pages/ecf-settings.php:12 inc/pages/ecf-welcome.php:75
+msgid "Global Settings"
+msgstr "Pengaturan"
+
+#: inc/pages/ecf-settings.php:15
+msgid "Auto Update Plugin"
+msgstr "Plugin Auto Update"
+
+#: inc/pages/ecf-settings.php:18
+msgid "Enable"
+msgstr "Aktifkan"
+
+#: inc/pages/ecf-settings.php:19
+msgid "Disable"
+msgstr "Nonaktifkan"
+
+#: inc/pages/ecf-settings.php:29
+msgid "Pro Version Control Panel Screenshot"
+msgstr "Versi Pro Control Panel Screenshot"
+
+#: inc/pages/ecf-settings.php:46
+msgid "Check this out!"
+msgstr "Lihat ini!"
+
+#: inc/pages/ecf-welcome.php:69
+msgid "Form Analytics"
+msgstr "Form Analytics"
+
+#: inc/pages/ecf-welcome.php:72
+msgid "UPGRADE to PRO"
+msgstr "Upgrade ke PRO"
+
+#: inc/pages/ecf-welcome.php:343
+msgid "What's New"
+msgstr "Yang Baru"
+
+#: inc/pages/ecf-welcome.php:346
+msgid "Getting Started"
+msgstr "Cara Memulai"
+
+#: inc/pages/ecf-welcome.php:349
+msgid "Addons"
+msgstr "Addons"
+
+#: inc/pages/ecf-welcome.php:353
+msgid "Free Plugins"
+msgstr "Plugin Gratis"
+
+#: inc/pages/ecf-welcome.php:357
+msgid "Premium Plugins"
+msgstr "Plugins Premium"
+
+#: inc/pages/ecf-welcome.php:361
+msgid ""
+"<span class=\"ecf-dollar\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extra</span>"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:379 inc/pages/ecf-welcome.php:482
+#: inc/pages/ecf-welcome.php:538 inc/pages/ecf-welcome.php:567
+#: inc/pages/ecf-welcome.php:598 inc/pages/ecf-welcome.php:629
+msgid "Welcome to "
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:380 inc/pages/ecf-welcome.php:455
+#: inc/pages/ecf-welcome.php:483 inc/pages/ecf-welcome.php:539
+#: inc/pages/ecf-welcome.php:568 inc/pages/ecf-welcome.php:599
+#: inc/pages/ecf-welcome.php:630
+msgid "Thank you for installing "
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:381 inc/pages/ecf-welcome.php:456
+#: inc/pages/ecf-welcome.php:484 inc/pages/ecf-welcome.php:540
+#: inc/pages/ecf-welcome.php:569 inc/pages/ecf-welcome.php:600
+#: inc/pages/ecf-welcome.php:631
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:388
+msgid "New Welcome Page"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:392
+msgid ""
+"Version 1.0.13 introduces a comprehensive welcome page interface. The easy "
+"way to get important informations about this product and other related "
+"plugins."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:394
+msgid ""
+"In this page, you will find four important Tabs named Getting Started, "
+"Addons, Free Plugins and Premium Plugins."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:400
+msgid "ADDONS"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:404
+msgid ""
+"Need some Pro version features to be applied in your Free version? What you "
+"have to do just go to <strong>Addons</strong> page and choose any Addons "
+"that you want to install. All listed addons are Premium version."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:410
+msgid "Additional Updates"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:415
+msgid "CSS Clean and Optimization"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:416
+msgid ""
+"We have improved some css class to make your form for look fancy and better."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:422
+msgid "Disable Notifications"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:423
+msgid ""
+"In this version you will no longer see some annoying notifications in top of "
+"form editor page. Thanks for who suggested it."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:429
+msgid "Improved WP Mail Function"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:430
+msgid ""
+" WP Mail function has been improved to be more robust and fast so you can "
+"send an email only in seconds."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:437
+msgid "View the Full Changelog"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:454
+msgid " Changelog"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:461
+msgid "Full Changelog"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:488
+msgid ""
+"There are no complicated instructions for using Contact Form plugin because "
+"this plugin designed to make all easy. Please watch the following video and "
+"we believe that you will easily to understand it just in minutes :"
+msgstr ""
+"Tidak ada instruksi yang rumit untuk menggunakan plugin ini karena plugin "
+"ini dirancang untuk membuat semua mudah. Silahkan menonton berikut video dan "
+"kami percaya bahwa Anda akan mudah untuk memahaminya hanya dalam menit:"
+
+#: inc/pages/ecf-welcome.php:497
+msgid "Need Help?"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:501
+msgid "Phenomenal Support"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:502
+msgid ""
+"We do our best to provide the best support we can. If you encounter a "
+"problem or have a question, post a question in the <a href=\"https://"
+"wordpress.org/support/plugin/contact-form-lite\" target=\"_blank\">support "
+"forums</a>."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:504
+msgid "Need Even Faster Support?"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:505
+msgid ""
+"Just upgrade to <a target=\"_blank\" href=\"http://demo.ghozylab.com/plugins/"
+"easy-contact-form-plugin/pricing-compare-tables/\">Pro version</a> and you "
+"will get Priority Support are there for customers that need faster and/or "
+"more in-depth assistance."
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:511
+msgid "Stay Up to Date"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:515
+msgid "Get Notified of Addons Releases"
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:516
+msgid "New Addons that make "
+msgstr ""
+
+#: inc/pages/ecf-welcome.php:657
+msgid "No valid changlog was found."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Contact Form Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.ghozylab.com/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easy Contact Form (Lite) - Display your contact form anywhere you like. You "
+"can quickly customize your forms to look exactly the way you want them to "
+"look. <a href=\"http://demo.ghozylab.com/plugins/easy-contact-form-plugin/"
+"pricing-compare-tables/\" target=\"_blank\"><strong> Upgrade to Pro Version "
+"Now</strong></a> and get a tons of awesome features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GhozyLab, Inc."
+msgstr ""
