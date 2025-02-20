@@ -3,10 +3,10 @@
 Plugin Name: Easy Contact Form Lite
 Plugin URI: https://ghozylab.com/plugins/
 Description: Easy Contact Form (Lite) - Display your contact form anywhere you like. You can quickly customize your forms to look exactly the way you want them to look. <a href="https://demo.ghozylab.com/plugins/easy-contact-form-plugin/pricing-compare-tables/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
-Author: Form Plugin Team - GhozyLab
+Author: PT. GHOZY LAB LLC
 Text Domain: contact-form-lite
 Domain Path: /languages
-Version: 1.1.25
+Version: 1.1.27
 Author URI: https://ghozylab.com/plugins/
 */
 
@@ -26,7 +26,7 @@ if ( ! defined( 'ECF_PLUGIN_SLUG' ) ) {
 
 // Plugin Version
 if ( ! defined( 'ECF_VERSION' ) ) {
-    define( 'ECF_VERSION', '1.1.25' );
+    define( 'ECF_VERSION', '1.1.27' );
 }
 
 // Pro Price
