@@ -303,7 +303,7 @@ body.rtl .ecf-container-cnt .plugin-card-top .column-description {
 					} elseif ( ! empty( $plugin['requires'] ) && version_compare( substr( $GLOBALS['wp_version'], 0, strlen( $plugin['requires'] ) ), $plugin['requires'], '<' ) ) {
 						echo '<span class="compatibility-incompatible">' . esc_html( '<strong>Incompatible</strong> with your version of WordPress' ) . '</span>';
 					} else {
-						echo '<span class="compatibility-compatible">' . esc_html( '<strong>Compatible</strong> with your version of WordPress' ) . '</span>';
+						echo '<span class="compatibility-compatible">' . '<strong>Compatible</strong> with your version of WordPress</span>';
 					}
 					?>
 				</div>
@@ -341,7 +341,7 @@ $.fn.ecfReOrder = function(array) {
 
 jQuery(document).ready(function($) {
 	
-	var theLists = ['page-builder-wp', 'easy-media-gallery', 'contact-form-lite', 'feed-instagram-lite', 'image-slider-widget', 'gallery-lightbox-slider', 'image-carousel','icon', 'easy-notify-lite'];
+	var theLists = ['luvre', 'page-builder-wp', 'easy-media-gallery', 'contact-form-lite', 'feed-instagram-lite', 'image-slider-widget', 'gallery-lightbox-slider', 'image-carousel','icon', 'easy-notify-lite'];
 	
 	$('#the-list').ecfReOrder(theLists);
 	

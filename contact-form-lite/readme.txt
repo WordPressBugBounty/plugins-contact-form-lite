@@ -3,7 +3,7 @@ Contributors: GhozyLab
 Donate link: https://plasso.co/donate@ghozylab.com
 Tags: form, contact form, form builder, form plugin, wordpress form
 Requires at least: 3.3
-Tested up to: 6.7
+Tested up to: 6.8
 Stable tag: 1.1.27
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
