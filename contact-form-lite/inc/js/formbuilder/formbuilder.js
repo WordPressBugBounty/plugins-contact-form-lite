@@ -1126,7 +1126,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('text', {
     order: 4,
-    view: "<input placeholder='<%= rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' type='text' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' />",
+    view: "<input placeholder='<%- rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' type='text' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%- rf.get(Formbuilder.options.mappings.ICONS) %>' />",
     edit: "<%= Formbuilder.templates['edit/icon']() %>",
     addButton: "<span class='symbol'><span class='fa fa-font'></span></span> Text",
     defaultAttributes: function(attrs) {
@@ -1161,7 +1161,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('name', {
     order: 0,
-    view: "<input placeholder='<%= rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' type='text' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' />",
+    view: "<input placeholder='<%- rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' type='text' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%- rf.get(Formbuilder.options.mappings.ICONS) %>' />",
     edit: "<%= Formbuilder.templates['edit/icon']() %>",
     addButton: "<span class='symbol'><span class='fa fa-user'></span></span> Name",
     defaultAttributes: function(attrs) {
@@ -1196,7 +1196,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('date', {
     order: 28,
-    view: "<input placeholder='<%= rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' type='text' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-frmt='<%= rf.get(Formbuilder.options.mappings.DATEFORMAT) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' /><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
+    view: "<input placeholder='<%- rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' type='text' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-frmt='<%- rf.get(Formbuilder.options.mappings.DATEFORMAT) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' /><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
     edit: "<%= Formbuilder.templates['edit/date']() %>",
     addButton: "<span class='symbol'><span class='fa fa-calendar'></span></span> Date",
     defaultAttributes: function(attrs) {
@@ -1215,7 +1215,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('daterange', {
     order: 29,
-    view: "<input placeholder='<%= rf.get(Formbuilder.options.mappings.DATESTART) %>' type='text' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-frmt='<%= rf.get(Formbuilder.options.mappings.DATEFORMAT) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' /><input placeholder='<%= rf.get(Formbuilder.options.mappings.DATEFINISH) %>' type='text' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-frmt='<%= rf.get(Formbuilder.options.mappings.DATEFORMAT) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' /><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
+    view: "<input placeholder='<%- rf.get(Formbuilder.options.mappings.DATESTART) %>' type='text' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-frmt='<%= rf.get(Formbuilder.options.mappings.DATEFORMAT) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' /><input placeholder='<%- rf.get(Formbuilder.options.mappings.DATEFINISH) %>' type='text' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-frmt='<%= rf.get(Formbuilder.options.mappings.DATEFORMAT) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' /><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
     edit: "<%= Formbuilder.templates['edit/daterange']() %>",
     addButton: "<span class='symbol'><span class='fa fa-calendar'></span></span> Date Range",
     defaultAttributes: function(attrs) {
@@ -1275,7 +1275,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('email', {
     order: 3,
-    view: "<input placeholder='<%= rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' type='text' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' />",
+    view: "<input placeholder='<%- rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' type='text' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%- rf.get(Formbuilder.options.mappings.ICONS) %>' />",
     edit: "<%= Formbuilder.templates['edit/icon']() %>",
     addButton: "<span class='symbol'><span class='fa fa-envelope-o'></span></span> Email",
     defaultAttributes: function(attrs) {
@@ -1293,7 +1293,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('website', {
     order: 35,
-    view: "<input placeholder='<%= rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' placeholder='https://' type='text' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' />",
+    view: "<input placeholder='<%- rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' placeholder='https://' type='text' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%- rf.get(Formbuilder.options.mappings.ICONS) %>' />",
     edit: "<%= Formbuilder.templates['edit/icon']() %>",
     addButton: "<span class=\"symbol\"><span class=\"fa fa-link\"></span></span> Website",
     defaultAttributes: function(attrs) {
@@ -1310,7 +1310,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('paragraph', {
     order: 5,
-    view: "<textarea placeholder='<%= rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>'></textarea>",
+    view: "<textarea placeholder='<%- rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%- rf.get(Formbuilder.options.mappings.ICONS) %>'></textarea>",
     edit: "<%= Formbuilder.templates['edit/icon']() %>",
     addButton: "<span class=\"symbol\"><span class=\"fa fa-comment\"></span></span> Textarea",
     defaultAttributes: function(attrs) {
@@ -1327,7 +1327,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('message', {
     order: 5,
-    view: "<textarea placeholder='<%= rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>'></textarea>",
+    view: "<textarea placeholder='<%- rf.get(Formbuilder.options.mappings.PLACEHOLDER) %>' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%- rf.get(Formbuilder.options.mappings.ICONS) %>'></textarea>",
     edit: "<%= Formbuilder.templates['edit/icon']() %>",
     addButton: "<span class=\"symbol\"><span class=\"fa fa-comment\"></span></span> Message",
     defaultAttributes: function(attrs) {

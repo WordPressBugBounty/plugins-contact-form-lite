@@ -277,7 +277,7 @@ if ( has_filter( 'ecf_addons_add_inline_styles' ) ) {
         foreach ( $value as $k => $v ) {
 
             if ( isset( $v[ 'placeholder' ] ) && trim( $v[ 'placeholder' ] ) != '' ) {
-                $isplchldr = 'placeholder="'.$v[ 'placeholder' ].'"';
+                $isplchldr = 'placeholder="'.esc_html( $v[ 'placeholder' ] ).'"';
             } else {
                 $isplchldr = null;
             }
@@ -338,20 +338,20 @@ if ( has_filter( 'ecf_addons_add_inline_styles' ) ) {
                 case 'name':
 
                     $avname = $avname + 1;
-                    echo '<input data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" type="text" name="'.esc_attr( $v[ 'field_type' ].$k ).'" '.esc_attr( $isplchldr ).'/>';
+                    echo '<input data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" type="text" name="'.esc_attr( $v[ 'field_type' ].$k ).'" '.$isplchldr.'/>';
 
                     break;
 
                 case 'text':
 
-                    echo '<input data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" type="text" name="'.esc_attr( $v[ 'field_type' ].$k ).'" '.esc_attr( $isplchldr ).'/>';
+                    echo '<input data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" type="text" name="'.esc_attr( $v[ 'field_type' ].$k ).'" '.$isplchldr.'/>';
 
                     break;
 
                 case 'email':
 
                     $avemail = $avemail + 1;
-                    echo '<input data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" type="text" name="'.esc_attr( $v[ 'field_type' ].$k ).'" '.esc_attr( $isplchldr ).'/>';
+                    echo '<input data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" type="text" name="'.esc_attr( $v[ 'field_type' ].$k ).'" '.$isplchldr.'/>';
 
                     break;
 
@@ -363,14 +363,14 @@ if ( has_filter( 'ecf_addons_add_inline_styles' ) ) {
 
                 case 'paragraph':
 
-                    echo '<textarea data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" name="'.esc_attr( $v[ 'field_type' ].$k ).'" rows="7" '.esc_attr( $isplchldr ).'></textarea>';
+                    echo '<textarea data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" name="'.esc_attr( $v[ 'field_type' ].$k ).'" rows="7" '.$isplchldr.'></textarea>';
 
                     break;
 
                 case 'message':
 
                     $avmsg = $avmsg + 1;
-                    echo '<textarea data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" name="'.esc_attr( $v[ 'field_type' ].$k ).'" rows="7" '.esc_attr( $isplchldr ).'></textarea>';
+                    echo '<textarea data-type="'.esc_attr( $v[ 'field_type' ] ).'" data-label="'.esc_attr( $v[ 'label' ] ).'" id="'.esc_attr( $v[ 'field_type' ].$k ).'" name="'.esc_attr( $v[ 'field_type' ].$k ).'" rows="7" '.$isplchldr.'></textarea>';
 
                     break;
 

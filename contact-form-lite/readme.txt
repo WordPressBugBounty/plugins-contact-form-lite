@@ -4,7 +4,7 @@ Donate link: https://plasso.co/donate@ghozylab.com
 Tags: form, contact form, form builder, form plugin, wordpress form
 Requires at least: 3.3
 Tested up to: 6.8
-Stable tag: 1.1.27
+Stable tag: 1.1.29
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -198,10 +198,13 @@ There are no complicated instructions for using Contact Form plugin because this
 
 == Upgrade Notice ==
 
-= 1.1.27 =
+= 1.1.29 =
 IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!
 
 == Changelog ==
+
+= 1.1.29 =
+* Fixed : IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!
 
 = 1.1.27 =
 * Fixed : IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!
