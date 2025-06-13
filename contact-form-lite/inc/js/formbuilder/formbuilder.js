@@ -1080,7 +1080,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('checkboxes', {
     order: 26,
-    view: "<% for (i in (rf.get(Formbuilder.options.mappings.OPTIONS) || [])) { %>\n  <div>\n    <label class='fb-option'>\n      <input type='checkbox' <%= rf.get(Formbuilder.options.mappings.OPTIONS)[i].checked && 'checked' %> onclick=\"javascript: return false;\" />\n      <%= rf.get(Formbuilder.options.mappings.OPTIONS)[i].label %>\n    </label>\n  </div>\n<% } %>\n\n<% if (rf.get(Formbuilder.options.mappings.INCLUDE_OTHER)) { %>\n  <div class='other-option'>\n    <label class='fb-option'>\n      <input type='checkbox' />\n      Other\n    </label>\n\n    <input type='text' />\n  </div>\n<% } %><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
+    view: "<% for (i in (rf.get(Formbuilder.options.mappings.OPTIONS) || [])) { %>\n  <div>\n    <label class='fb-option'>\n      <input type='checkbox' <%= rf.get(Formbuilder.options.mappings.OPTIONS)[i].checked && 'checked' %> onclick=\"javascript: return false;\" />\n      <%- rf.get(Formbuilder.options.mappings.OPTIONS)[i].label %>\n    </label>\n  </div>\n<% } %>\n\n<% if (rf.get(Formbuilder.options.mappings.INCLUDE_OTHER)) { %>\n  <div class='other-option'>\n    <label class='fb-option'>\n      <input type='checkbox' />\n      Other\n    </label>\n\n    <input type='text' />\n  </div>\n<% } %><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
     edit: "<%= Formbuilder.templates['edit/options']({ includeOther: true }) %>",
     addButton: "<span class=\"symbol\"><span class=\"fa fa-square-o\"></span></span> Checkboxes",
     defaultAttributes: function(attrs) {
@@ -1103,7 +1103,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('radio', {
     order: 15,
-    view: "<% for (i in (rf.get(Formbuilder.options.mappings.OPTIONS) || [])) { %>\n  <div>\n    <label class='fb-option'>\n      <input type='radio' <%= rf.get(Formbuilder.options.mappings.OPTIONS)[i].checked && 'checked' %> onclick=\"javascript: return false;\" />\n      <%= rf.get(Formbuilder.options.mappings.OPTIONS)[i].label %>\n    </label>\n  </div>\n<% } %>\n\n<% if (rf.get(Formbuilder.options.mappings.INCLUDE_OTHER)) { %>\n  <div class='other-option'>\n    <label class='fb-option'>\n      <input type='radio' />\n      Other\n    </label>\n\n    <input type='text' />\n  </div>\n<% } %><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
+    view: "<% for (i in (rf.get(Formbuilder.options.mappings.OPTIONS) || [])) { %>\n  <div>\n    <label class='fb-option'>\n      <input type='radio' <%- rf.get(Formbuilder.options.mappings.OPTIONS)[i].checked && 'checked' %> onclick=\"javascript: return false;\" />\n      <%- rf.get(Formbuilder.options.mappings.OPTIONS)[i].label %>\n    </label>\n  </div>\n<% } %>\n\n<% if (rf.get(Formbuilder.options.mappings.INCLUDE_OTHER)) { %>\n  <div class='other-option'>\n    <label class='fb-option'>\n      <input type='radio' />\n      Other\n    </label>\n\n    <input type='text' />\n  </div>\n<% } %><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
     edit: "<%= Formbuilder.templates['edit/options']({ includeOther: true }) %>",
     addButton: "<span class=\"symbol\"><span class=\"fa fa-circle-o\"></span></span> Radios",
     defaultAttributes: function(attrs) {
@@ -1143,7 +1143,7 @@ $.scrollWindowTo = function(pos, duration, cb) {
 (function() {
   Formbuilder.registerField('phone', {
     order: 30,
-    view: "<input placeholder='<%= rf.get(Formbuilder.options.mappings.PHONEMASK) %>' type='text' class='rf-size-<%= rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%= rf.get(Formbuilder.options.mappings.ICONS) %>' /><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
+    view: "<input placeholder='<%- rf.get(Formbuilder.options.mappings.PHONEMASK) %>' type='text' class='rf-size-<%- rf.get(Formbuilder.options.mappings.SIZE) %>' data-icon='<%- rf.get(Formbuilder.options.mappings.ICONS) %>' /><div style='padding-top: 12px; padding-bottom: 7px; font-size: 12px; color: #F40043;'><i>This feature only available in Pro Version</i></div>",
     edit: "<%= Formbuilder.templates['edit/phone']() %>",
     addButton: "<span class='symbol'><span class='fa fa-phone'></span></span> Phone Number",
     defaultAttributes: function(attrs) {

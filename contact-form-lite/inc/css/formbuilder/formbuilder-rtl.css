@@ -128,6 +128,15 @@
 .response-field-name a.js-clear, .response-field-email a.js-clear, .response-field-message a.js-clear, #ecf-field-name, #ecf-field-email, #ecf-field-message {
 	display: none !important;
 	}
+
+.edit-response-field input[type="checkbox"].js-default-updated {
+	padding: .5em !important;
+	height: 17px;
+}
+
+.edit-response-field input[type="checkbox"].js-default-updated:checked::before {
+	margin: -0.5rem -0.55rem 0 0;
+}
 	
 .rating-view {
 	width: 130px;
