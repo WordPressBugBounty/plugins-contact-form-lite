@@ -57,7 +57,7 @@ function ecf_markup_generator( $fid, $rnd )
 jQuery(document).ready(function($) {
 
     jQuery("#preloader-<?php echo esc_html( $rnd ); ?>").fadeOut(500, function() {
-        jQuery("#ecf-form-<?php echo esc_html( $rnd ); ?>").fadeIn(300);
+        jQuery("#ecf-form-<?php echo esc_html( $rnd ); ?>").fadeIn(100);
     });
 
     Ladda.bind('.ladda-button');
@@ -182,7 +182,7 @@ if ( $opt[ 'frmerrmsg' ] != 'none' ) {echo wp_kses( $opt[ 'frmelvalmsg' ], ecf_w
     }
 
     ?>
-            data['allelmnt'] = JSON.stringify(eldat);
+            data['allelmnt'] = eldat;
 
             submitForm();
 
@@ -214,7 +214,6 @@ if ( $opt[ 'frmerrmsg' ] != 'none' ) {echo wp_kses( $opt[ 'frmelvalmsg' ], ecf_w
                     }
 
                 } else {
-                    $("#form-<?php echo esc_html( $rnd ); ?>").get(0).reset();
                     notifyme(data.msg, 'n', 'error', 'left middle');
                 }
 
@@ -265,7 +264,7 @@ if ( has_filter( 'ecf_addons_add_inline_styles' ) ) {
 
 <!-- START Form Markup for Form ID: <?php echo esc_html( $fid ); ?> -->
 <div id="preloader-<?php echo esc_attr( $rnd );?>" class="ecfpreloader"></div>
-<div id="ecf-form-<?php echo esc_attr( $rnd );?>" class="ecf-body" style="display:none;">
+<div id="ecf-form-<?php echo esc_attr( $rnd );?>" class="ecf-body">
     <form method="post" enctype="multipart/form-data" action="#" id="form-<?php echo esc_attr( $rnd );?>"
         class="ecf-form form-<?php echo esc_attr( $rnd );?>">
         <?php echo wp_kses( $isheader, ecf_wp_kses_allowed_html() ); ?>

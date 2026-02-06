@@ -1,220 +1,197 @@
 <?php
 
-if ( ! defined( 'ABSPATH' ) ) exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
+/*
+-------------------------------------------------------------------------------*/
+/*
+	Email Sender
 /*-------------------------------------------------------------------------------*/
-/*   Email Sender
-/*-------------------------------------------------------------------------------*/	
 function ecf_deliver_mail() {
 
 	check_ajax_referer( trim( $_POST['formid'] ), 'security' );
 
-	$result = array();
-	$frmid = trim( wp_unslash( $_POST['formid'] ) );
+	$result      = array();
+	$frmid       = trim( wp_unslash( $_POST['formid'] ) );
 	$attachments = array();
-	$aftersent = get_post_meta( $frmid, 'ecf_email_action_on_sent', true );
-	$singelmnt = ecf_form_element_parsing( $frmid, null, wp_unslash( $_POST['allelmnt'] ), null );
-		
-	if ( trim( isset ( $singelmnt['to'] ) ) ) {
-		$singelmnt['to'] = $singelmnt['to'];
-		} else {
-			$singelmnt['to'] = get_post_meta( $frmid, 'ecf_meta_admin_email', true );
-			}
-				
-    // sanitize form values
-	$name      = sanitize_text_field( $singelmnt['name'] );
-	$email     = sanitize_email( $singelmnt['email'] );
-	$to	       = sanitize_email( $singelmnt['to'] );
-	$message   = $singelmnt['emailbody'];
-    $headers[] = 'MIME-Version: 1.0' . "\r\n";
-    $headers[] = 'Content-type: text/plain; charset=utf-8' . "\r\n";
-    $headers[] = 'From: '.$name.' <'.$email.'>';
-    $headers[] = 'Reply-To: '.$name.' <'.$email.'>';
-	
-	$args = array (
-		'to' => $to,
-		'name' => $name,
-		'email' => $email,
-		'message' => $message,
-		'headers' => $headers,
-		'attachments' => $attachments,
-		);
- 
-        // If email has been process for sending, display a success message
-        if ( apply_filters( 'ecf_email_configs',  wp_mail( $to, 'From '.$name.'', $message, $headers, $attachments ) , $args ) ) {
-			
+	$aftersent   = get_post_meta( $frmid, 'ecf_email_action_on_sent', true );
 
-			// @since 1.0.13 ( Addons )
-			if ( has_action( 'ecf_before_email_sent' ) ) {
-				do_action( 'ecf_before_email_sent', $frmid, $name, $email, $singelmnt );
-				}
-			
+	$singelmnt = ecf_form_element_parsing(
+		$frmid,
+		null,
+		wp_unslash( $_POST['allelmnt'] ),
+		null
+	);
 
-			// Reset content-type to avoid conflicts -- http://core.trac.wordpress.org/ticket/23578
-			remove_filter( 'wp_mail_content_type', 'ecf_set_html_content_type' );
-
-			function ecf_set_html_content_type() {
-				return 'text/html';
-				}
-
-			$result['Ok'] = true;
-			$result['msg'] = $aftersent[0];
-			
-			
-			// @since 1.0.13 ( Addons )
-			if ( has_action( 'ecf_after_email_sent' ) ) {
-				do_action( 'ecf_after_email_sent', $email, $name, $frmid );
-				}
-				
-
-			// @since 1.0.13 ( Addons )
-			if ( has_action( 'ecf_analytics_after_email_sent' ) ) {
-				do_action( 'ecf_analytics_after_email_sent', $frmid );
-				}
-			
-        	} else {
-				
-            	$result['Ok'] = false;
-				
-				global $phpmailer;
-				
-				if ( isset( $phpmailer ) ) {
-					
-					$result['msg'] = $phpmailer->ErrorInfo;
-					
-					} else {
-						
-						$result['msg'] = 'Error!';	
-					
-					}
-				
-        		}
-			
-	
-	
-	echo json_encode( $result );	
-	wp_die();
-	
-}
-	
-add_action('wp_ajax_ecf_deliver_mail', 'ecf_deliver_mail');
-add_action('wp_ajax_nopriv_ecf_deliver_mail', 'ecf_deliver_mail');
-
-
-
-/*-------------------------------------------------------------------------------*/
-/*   Email Body Parsing
-/*-------------------------------------------------------------------------------*/	
-function ecf_form_element_parsing( $fid, $type, $jsnel, $atch ) {
-	
-	$emailplain = '';
-	$singelmnt = array();
-	$checkboxval = array();
-	$attname = array();
-	$tmplateval = array();
-	
-	$elready = json_decode( stripslashes($jsnel), true );
-	
-	foreach ($elready as $key => $val) {
-		
-			// sanitize if values =  Array
-			if ( isset ( $val['value'] ) && is_array( $val['value'] ) ) {
-				array_walk_recursive( $val['value'], "ecf_sanitize_array");
-				}
-		
-			// sanitize textarea/message values
-			if ( isset ( $val['type'] ) ) {	
-			if ( $val['type'] == 'paragraph' || $val['type'] == 'message' ) {
-				
-				$val['value'] = esc_textarea( $val['value'] );
-					
-				if ( $val['type'] == 'message' ) {
-					$singelmnt['message'] = $val['value'];
-					$val['value'] = $val['value'];
-					} else {
-						$val['value'] = $val['value'];
-						}
-								
-				} else {
-					// Filter it!
-					$val['value'] = esc_html( $val['value'] );
-					$val['value'] = esc_js( $val['value'] );
-					$val['value'] = htmlspecialchars( stripslashes( $val['value'] ), ENT_QUOTES, 'UTF-8' );	
-					}
-					
-			}
-
-				
-			//  Sanitize Text Fields
-			if ( isset ( $val['type'] ) ) {	
-			if ( $val['type'] == 'text' || $val['type'] == 'website' ) {
-				$val['value'] = sanitize_text_field( $val['value'] );
-				}
-			}
-			
-			// Get Client Email
-			if ( isset ( $val['type'] ) ) {	
-			if ( $val['type'] == 'email' ) {
-				$tmplateval['email'] = sanitize_email( $val['value'] );
-				$singelmnt['email'] = sanitize_email( $val['value'] );
-				}
-			}
-				
-			// Get Client Name
-			if ( isset ( $val['type'] ) ) {	
-			if ( $val['type'] == 'name' ) {
-				$singelmnt['name'] = sanitize_text_field( $val['value'] );
-				$tmplateval['name'] = sanitize_text_field( $val['value'] );
-				}
-			}
-				
-				
-			if ( isset ( $val['type'] ) ) {	
-				if ( $val['type'] == 'date' ) {
-					$val['value'] = sanitize_text_field( $val['value'] );
-					}
-				}
-		
-		
-			if ( isset ( $val['cbxgroup'] ) ) {
-		
-				$checkboxval = null;
-		
-				foreach ( $val['cbxgroup'] as $dor ) {
-					$checkboxval[] = $dor;
-					}
-			
-					$val['label'] = end($checkboxval);
-					unset ($checkboxval[count($checkboxval)-1]);
-					$val['value'] = $checkboxval;
-					
-				}
-				
-		
-
-		
-		// EMAIL FORMAT
-			$emailplain .= $val['label'].''."\n".(is_array( $val['value']) ? implode("\n", $val['value']) : $val['value'] )."\n\n";		
-	
-		}
-		
-		$singelmnt['emailbody'] = $emailplain;
-
-		return $singelmnt;
-
+	// To
+	if ( isset( $singelmnt['to'] ) && trim( $singelmnt['to'] ) ) {
+		$to = sanitize_email( $singelmnt['to'] );
+	} else {
+		$to = sanitize_email( get_post_meta( $frmid, 'ecf_meta_admin_email', true ) );
 	}
 
+	// sanitize form values
+	$name    = sanitize_text_field( $singelmnt['name'] );
+	$email   = sanitize_email( $singelmnt['email'] );
+	$message = $singelmnt['emailbody'];
 
-/*-------------------------------------------------------------------------------*/
-/*  Sanitize Array
-/*-------------------------------------------------------------------------------*/	
-function ecf_sanitize_array( &$value ) {
-	
-	$value = esc_html( $value );
-	$value = esc_js( $value );
-	$value = htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
-	
+	$headers   = array();
+	$headers[] = 'Content-Type: text/html; charset=utf-8';
+	$headers[] = 'Reply-To: ' . $name . ' <' . $email . '>';
+
+	$args = array(
+		'to'          => $to,
+		'name'        => $name,
+		'email'       => $email,
+		'message'     => $message,
+		'headers'     => $headers,
+		'attachments' => $attachments,
+	);
+
+	$sent = wp_mail(
+		$to,
+		'From ' . $name,
+		$message,
+		$headers,
+		$attachments
+	);
+
+	if ( apply_filters( 'ecf_email_configs', $sent, $args ) ) {
+
+		if ( has_action( 'ecf_before_email_sent' ) ) {
+			do_action( 'ecf_before_email_sent', $frmid, $name, $email, $singelmnt );
+		}
+
+		$result['Ok']  = true;
+		$result['msg'] = $aftersent[0];
+
+		if ( has_action( 'ecf_after_email_sent' ) ) {
+			do_action( 'ecf_after_email_sent', $email, $name, $frmid );
+		}
+
+		if ( has_action( 'ecf_analytics_after_email_sent' ) ) {
+			do_action( 'ecf_analytics_after_email_sent', $frmid );
+		}
+	} else {
+
+		$result['Ok'] = false;
+
+		global $phpmailer;
+		$result['msg'] = isset( $phpmailer ) ? $phpmailer->ErrorInfo : 'Error!';
+	}
+
+	echo wp_json_encode( $result );
+	wp_die();
 }
 
+add_action( 'wp_ajax_ecf_deliver_mail', 'ecf_deliver_mail' );
+add_action( 'wp_ajax_nopriv_ecf_deliver_mail', 'ecf_deliver_mail' );
 
-?>
+/**
+ * Parse form elements and prepare sanitized email body (HTML)
+ *
+ * @param int    $fid   Form ID
+ * @param string $type  (unused, reserved for future)
+ * @param string $jsnel JSON string of submitted elements
+ * @param array  $atch  Attachments (unused here)
+ *
+ * @return array $singelmnt Contains sanitized form values including 'emailbody'
+ */
+function ecf_form_element_parsing( $fid, $type, $jsnel, $atch ) {
+
+	$emailhtml = '';
+	$singelmnt = array();
+
+	if ( ! is_array( $jsnel ) ) {
+		return $singelmnt; // return empty if invalid
+	}
+
+	foreach ( $jsnel as $val ) {
+
+		if ( ! isset( $val['type'] ) || ! isset( $val['label'] ) ) {
+			continue; // skip invalid elements
+		}
+
+		$value = $val['value'] ?? '';
+
+		// ---------------------------
+		// Sanitize element value
+		// ---------------------------
+		if ( is_array( $value ) ) {
+			array_walk_recursive( $value, 'ecf_sanitize_array' );
+		} else {
+			switch ( $val['type'] ) {
+				case 'paragraph':
+				case 'message':
+					$value = sanitize_textarea_field( $value );
+					break;
+				case 'text':
+				case 'website':
+				case 'date':
+				case 'name':
+					$value = sanitize_text_field( $value );
+					break;
+				case 'email':
+					$value = sanitize_email( $value );
+					break;
+				default:
+					$value = sanitize_text_field( $value ); // fallback
+			}
+		}
+
+		// ---------------------------
+		// Store special fields
+		// ---------------------------
+		if ( $val['type'] === 'email' ) {
+			$singelmnt['email'] = $value;
+		} elseif ( $val['type'] === 'name' ) {
+			$singelmnt['name'] = $value;
+		} elseif ( $val['type'] === 'message' ) {
+			$singelmnt['message'] = $value;
+		}
+
+		// ---------------------------
+		// Handle checkbox group
+		// ---------------------------
+		if ( isset( $val['cbxgroup'] ) && is_array( $val['cbxgroup'] ) ) {
+			$cbx   = array_map( 'sanitize_text_field', $val['cbxgroup'] );
+			$value = $cbx;
+		}
+
+		// ---------------------------
+		// Build HTML email line
+		// ---------------------------
+		$emailhtml .= '<strong>' . esc_html( $val['label'] ) . ':</strong><br>';
+
+		if ( is_array( $value ) ) {
+			$emailhtml .= implode( '<br>', array_map( 'esc_html', $value ) );
+		} elseif ( $val['type'] === 'message' || $val['type'] === 'paragraph' ) {
+				$emailhtml .= nl2br( esc_html( $value ) );
+		} else {
+			$emailhtml .= esc_html( $value );
+		}
+
+		$emailhtml .= '<br><br>'; // line break in HTML
+	}
+
+	// ---------------------------
+	// Store complete HTML email body
+	// ---------------------------
+	$singelmnt['emailbody'] = $emailhtml;
+
+	return $singelmnt;
+}
+
+/*
+-------------------------------------------------------------------------------*/
+/*
+	Sanitize Array
+/*-------------------------------------------------------------------------------*/
+function ecf_sanitize_array( &$value ) {
+
+	$value = esc_html( $value );
+	$value = esc_js( $value );
+	$value = htmlspecialchars( $value, ENT_QUOTES, 'UTF-8' );
+}

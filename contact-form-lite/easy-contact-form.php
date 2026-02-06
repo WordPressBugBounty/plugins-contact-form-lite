@@ -6,7 +6,7 @@ Description: Easy Contact Form (Lite) - Display your contact form anywhere you l
 Author: PT. GHOZY LAB LLC
 Text Domain: contact-form-lite
 Domain Path: /languages
-Version: 1.1.30
+Version: 1.1.31
 Author URI: https://ghozylab.com/plugins/
 */
 
@@ -26,7 +26,7 @@ if ( ! defined( 'ECF_PLUGIN_SLUG' ) ) {
 
 // Plugin Version
 if ( ! defined( 'ECF_VERSION' ) ) {
-    define( 'ECF_VERSION', '1.1.30' );
+    define( 'ECF_VERSION', '1.1.31' );
 }
 
 // Pro Price

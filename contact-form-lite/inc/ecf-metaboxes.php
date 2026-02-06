@@ -373,7 +373,7 @@ function ecf_create_meta_box( $post, $meta_box )
                     $isd = null;
                 }
                 echo '<textarea style="width: 100% !important; vertical-align:top !important;" name="ecf_meta['.esc_attr( $field[ 'id' ] ).']" id="'.esc_attr( $field[ 'id' ] ).'" type="'.esc_attr( $field[ 'type' ] ).'" cols="45" rows="7" '.esc_html( $isd ).'>'.( $meta != '' ? esc_textarea( $meta ) : esc_attr( $field[ 'std' ] ) ).'</textarea>';
-                echo wp_kses( $tb, ecf_wp_kses_allowed_html() );
+                echo wp_kses( (string) $tb, ecf_wp_kses_allowed_html() );
                 echo '</div></td>';
 
                 break;

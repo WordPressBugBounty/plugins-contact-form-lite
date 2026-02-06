@@ -1322,7 +1322,11 @@ jQuery(document).ready(function($) {
     <div class="ecf-container-cnt">
 
         <div class="feature-section">
-            <?php echo wp_kses( easycform_free_plugin_page(), ecf_wp_kses_allowed_html() ); ?>
+            <?php
+                if (easycform_free_plugin_page() !== null) {
+                    echo wp_kses( easycform_free_plugin_page(), ecf_wp_kses_allowed_html() );
+                }
+                ?>
         </div>
     </div>
 
@@ -1409,7 +1413,7 @@ jQuery(document).ready(function($) {
     <div class="ecf-container-cnt">
         <div class="feature-section">
             <?php if ( current_user_can( 'install_themes' ) ) {
-            echo wp_kses( ecf_lite_free_themes(), ecf_wp_kses_allowed_html() );
+            echo wp_kses( (string) ecf_lite_free_themes(), ecf_wp_kses_allowed_html() );
         }
         ?>
         </div>
