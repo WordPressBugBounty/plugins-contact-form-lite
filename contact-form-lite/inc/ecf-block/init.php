@@ -47,13 +47,13 @@ if ( ! class_exists( 'Ecf_Block' ) ) {
             wp_register_style(
                 $style_slug,                                               // Handle.
                 plugin_dir_url( __FILE__ ).'/dist/blocks.style.build.css', // Block style CSS.
-                [ 'wp-blocks' ]                                         // Dependency to include the CSS after it.
+                []                                                      // Dependency to include the CSS after it.
             );
 
             wp_register_style(
                 $editor_style_slug,                                         // Handle.
                 plugin_dir_url( __FILE__ ).'/dist/blocks.editor.build.css', // Block editor CSS.
-                [ 'wp-edit-blocks' ]                                     // Dependency to include the CSS after it.
+                [ 'wp-edit-blocks', 'dashicons' ]                        // Dependency to include the CSS after it.
             );
 
             register_block_type(

@@ -3,8 +3,8 @@ Contributors: GhozyLab
 Donate link: https://ghozy.link/rs3bq
 Tags: form, contact form, form builder, form plugin, wordpress form
 Requires at least: 3.3
-Tested up to: 6.8
-Stable tag: 1.1.31
+Tested up to: 7.1
+Stable tag: 1.1.33
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -198,10 +198,15 @@ There are no complicated instructions for using Contact Form plugin because this
 
 == Upgrade Notice ==
 
-= 1.1.31 =
+= 1.1.33 =
 IMPORTANT! FIX EMAIL DELIVERY ISSUE!
 
 == Changelog ==
+
+= 1.1.33 =
+
+* Update : WordPress 7.1 compatibility
+* Fixed : Many other PHP and CSS clean and optimization
 
 = 1.1.31 =
 * Fixed : Email delivery issue
